@@ -1,0 +1,156 @@
+.main-content {
+    background-color: rgba(7, 28, 48, 0.737);
+
+    width: 1170px;
+    height: 750px;
+    margin-top: 1px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    border-style: groove;
+    border-color: rgb(199, 199, 199)
+
+}
+
+.speel {
+    background-color: rgba(7, 28, 48, 0);
+    width: 500px;
+    height: 1;
+    
+    color: white;
+    line-height: 20px;
+}
+.content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(7, 28, 48, 0);
+    width: 500px;
+    height: 1;
+    
+}
+
+.demo-navbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 480px;
+    height: 400px;
+
+    background-color: rgba(7, 28, 48, 0);
+}
+
+.navbutton {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: middle;
+    
+    height: 40px;
+    width: 350px;
+
+    background-image: linear-gradient(to right, silver, rgb(255, 255, 255));
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+
+    cursor: pointer;
+}
+.navbutton:hover {
+    background-image: linear-gradient(to right, rgb(68, 67, 67), rgb(184, 181, 181));
+    color: rgb(2, 3, 53)
+}
+
+
+.welcome {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.speel-text {
+    text-align: center;
+
+    width: 450px;
+    margin-left: 20px;
+}
+
+.kaoru-thumbnail {
+    width: 350px;
+    margin-top: 20px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: rgb(218, 218, 218);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.664);
+
+    
+}
+.kaoru-thumbnail-caption {
+    width: 350px;
+    margin-top: 7px;
+    color: white;
+}
+
+.latest-blogpost-container {
+    background-color: pink;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+    width: 1170px;
+    height: 350px;
+    margin-top: 12px;
+}
+
+.blogupdate-text {
+    background-color: lightblue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 700px;
+    height: 325px;
+}
+.blogtext {
+    width: 650px;
+
+    color: black;
+}
+
+
+.blogupdate-imagethumbnail {
+    background-color: lightgreen;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    width: 350px;
+    height: 325px;
+}
+.blog-thumbnail-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: red;}
+.blog-thumbnail {
+    width: 250px;
+    height: 250px;
+}
+
+.blogsubtext {
+    margin-top: 10px;
+}
