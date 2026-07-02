@@ -99,7 +99,7 @@
 }
 
 .latest-blogpost-container {
-    background-color: pink;
+    background-color: rgba(7, 28, 48, 0.737);
 
     display: flex;
     flex-direction: row;
@@ -110,10 +110,15 @@
     width: 1170px;
     height: 350px;
     margin-top: 12px;
+
+    border-style: ridge;
+    border-width: 2px;
+    border-color: rgb(218, 218, 218);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.664);
 }
 
 .blogupdate-text {
-    background-color: lightblue;
+    background-color: rgb(7, 28, 48);
 
     display: flex;
     flex-direction: column;
@@ -121,16 +126,24 @@
 
     width: 700px;
     height: 325px;
+
+    border-style: ridge;
+    border-width: 2px;
+    border-color: rgb(218, 218, 218);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.664);
 }
 .blogtext {
     width: 650px;
 
-    color: black;
+    color: white;
+}
+.timestamp {
+    color: white;
 }
 
 
 .blogupdate-imagethumbnail {
-    background-color: lightgreen;
+
 
     display: flex;
     flex-direction: column;
@@ -149,8 +162,14 @@
 .blog-thumbnail {
     width: 250px;
     height: 250px;
+    
+    border-style: ridge;
+    border-width: 2px;
+    border-color: rgb(218, 218, 218);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.664);
 }
 
 .blogsubtext {
     margin-top: 10px;
+    color: white;
 }
