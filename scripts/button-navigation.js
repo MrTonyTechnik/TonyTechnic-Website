@@ -20,6 +20,7 @@ class NavigationButton {
 }
 
 const youtubelink = new NavigationButton("https://www.youtube.com/@TonyTechnic");
+const kaorulink = new NavigationButton('kaoru.html')
 
 const youtube_redirect = document.getElementById('yt-link').addEventListener("click", function() {
     youtubelink.redirect();
@@ -27,6 +28,10 @@ const youtube_redirect = document.getElementById('yt-link').addEventListener("cl
 
 const random_video = document.getElementById('random-video').addEventListener("click", function() {
     NavigationButton.random_video();
+});
+
+const kaoru_shrine = document.getElementById('kao_shrine').addEventListener("click", function() {
+    kaorulink.redirect()
 });
 
 
